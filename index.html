@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>02 front end</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inter:wght@100&family=Libre+Baskerville:wght@700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./asset/imagem/Assinatura Simbolo Laranja (1) 2.png" alt="Logo da EngNet">
+        </div>
+        <div class="titulo">
+            <h1>Plataforma de localidades da EngNet</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="selecao-uf">
+            <h2>Selecione uma UF</h2>
+            <select name="uf" id="uf">
+                <option value="0">UF</option>
+            </select>
+            <div class="municipios-container" id="municipios-container"></div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
